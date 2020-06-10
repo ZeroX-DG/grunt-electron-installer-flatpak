@@ -24,7 +24,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "electron-installer-flatpak": "^0.4.0"
+    "@malept/electron-installer-flatpak": "^0.11.2"
   },
   "devDependencies": {
     "async": "^2.0.0",
