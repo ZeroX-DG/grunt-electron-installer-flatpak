@@ -3,23 +3,22 @@
   "description": "Create a flatpak for your Electron app.",
   "version": "0.4.0",
   "license": "MIT",
-  "author": {
-    "name": "Matt Watson",
-    "email": "mattdangerw@gmail.com"
-  },
+  "author": [
+    {
+      "name": "Matt Watson",
+      "email": "mattdangerw@gmail.com"
+    },
+    {
+      "name": "Viet Hung Nguyen",
+      "email": "viethungax@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/endlessm/grunt-electron-installer-flatpak.git"
   },
-  "keywords": [
-    "gruntplugin",
-    "electron",
-    "flatpak"
-  ],
-  "os": [
-    "darwin",
-    "linux"
-  ],
+  "keywords": ["gruntplugin", "electron", "flatpak"],
+  "os": ["darwin", "linux"],
   "scripts": {
     "test": "grunt test"
   },
